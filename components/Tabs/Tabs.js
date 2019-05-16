@@ -31,7 +31,10 @@ class TabLink {
     // this.element;
     
     // Call the select method on the item associated with this link
+    //this.select(this.element);
+    const selectedItem = new TabItem(this.itemElement);
 
+    selectedItem.select();
   }
 }
 
